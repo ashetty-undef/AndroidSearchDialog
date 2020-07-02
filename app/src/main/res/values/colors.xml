@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="text_color">#8F9796</color>
+    <color name="colorSecondary">#18ffff</color>
+
+    <color name="colorPrimaryRipple">#423f51b5</color>
+
+
+    <color name="textcolorHeader">#FFC0CB</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColorSecondary">#A5A5A5</color>
+    <color name="colorControlHighlight">#ff726f</color>
+    <color name="colorButtonNormal">#f70d1a</color>
+    <color name="colorButtonActivated">#f70d1a</color>
+
+    <!--switch color-->
+
+    <color name="thumb_active">#069ECF</color>
+    <color name="track_active">#f70d1a</color>
+    <color name="warning">#FFEB3B</color>
+    <color name="colorBackground">#000000</color>
+    <color name="colorSurface">#121212</color>
+    <color name="thumb_inactive">#A5A5A5</color>
+    <color name="track_inactive">#66A5A5A5</color>
+
+    <color name="search_card">#661B1A1A</color>
+</resources>

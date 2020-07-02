@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#4D575454"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<!--            <ImageView-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:visibility="invisible"-->
+<!--                android:src="@drawable/icon"/>-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="88dp"
+
+                android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            <EditText
+                android:id="@+id/search_dialog"
+                android:layout_width="fill_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/dialog_search_2"
+                android:hint="Search Turf"
+                android:inputType="text"
+
+                android:visibility="visible"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textColor="@color/text_color"
+                android:textColorHint="@android:color/darker_gray"
+                android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="search"
+                    android:clickable="true"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel" />
+            </FrameLayout>
+            </LinearLayout>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/list_words"
+                android:dividerHeight="1dp"
+                android:ellipsize="end"
+                android:background="@drawable/dialog_search_list"
+                />
+
+        </LinearLayout>
+</RelativeLayout>
